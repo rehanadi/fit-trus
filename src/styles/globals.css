@@ -1,0 +1,245 @@
+p,
+figure,
+ol,
+ul,
+dl {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: revert;
+}
+
+input {
+  line-height: revert;
+}
+
+.row,
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.sub-title {
+  font-size: 36px;
+}
+
+.title span, 
+.sub-title span {
+  color: rgb(252, 84, 26);
+}
+
+.link-hover {
+  padding: 10px 10px;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.link-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleX(0.3);
+  transform-origin: left;
+  background-color: rgb(252, 84, 26);
+  z-index: -1;
+  transition: transform 0.25s ease-in-out;
+}
+
+.link-hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.link-hover svg {
+  transform: rotate(-45deg);
+  transition: transform 0.4s ease-in-out;
+}
+
+.link-hover:hover svg {
+  transform: rotate(0);
+}
+
+.logo {
+  color: rgb(252, 84, 26);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.header .navbar {
+  background-color: rgb(6, 21, 28);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header .navbar-nav {
+  column-gap: 10px;
+}
+
+.header .nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.header .nav-link:hover {
+  color: rgb(252, 84, 26);
+}
+
+.hero {
+  background-image: url("/assets/images/hero-bg.jpg");
+}
+
+.overview-card {
+  background-image: url("/assets/images/overview-card-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.services .sub-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 30px;
+  background-color: #AAAAAA;
+}
+
+.services ul li svg {
+  color: rgb(252, 84, 26);
+}
+
+.services-card.highlight {
+  background-image: url("/assets/images/services-card-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.testimonials-card figure,
+.testimonials-card img {
+  height: 100px;
+  width: 100px;
+}
+
+.testimonials-card figure {
+  overflow: hidden;
+}
+
+.testimonials-card img {
+  transition: all 0.25s ease-in-out;
+}
+
+.testimonials-card figure:hover img {
+  transform: scale(1.1);
+}
+
+.testimonials-card .name {
+  font-size: 26px;
+  color: rgb(252, 84, 26);
+}
+
+.testimonials-card .rating {
+  color: orange;
+}
+
+.teams-card figure,
+.teams-card img {
+  height: 100px;
+  width: 100px;
+}
+
+.teams-card figure {
+  overflow: hidden;
+}
+
+.teams-card img {
+  transition: all 0.25s ease-in-out;
+}
+
+.teams-card figure:hover img {
+  transform: scale(1.1);
+}
+
+.teams-card .name {
+  font-size: 26px;
+  color: rgb(252, 84, 26);
+}
+
+.teams-card .social a {
+  font-size: 18px;
+}
+
+.footer {
+  background-image: url("/assets/images/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer h6 {
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: rgb(252, 84, 26);
+}
+
+.footer ul li a {
+  font-size: 18px;
+  color: white;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer form input,
+.footer form input:focus {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+  outline: none !important;
+}
+
+.footer form input::placeholder {
+  color: white;
+}
+
+.footer .social a {
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 992px) {
+  .services-card.highlight {
+    transform: scaleY(1.05);
+  }
+}
