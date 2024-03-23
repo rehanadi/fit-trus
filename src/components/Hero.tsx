@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
 
           <p className='lead'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, reprehenderit.
+          Empower individuals to achieve their health and wellness goals through personalized fitness programs, exceptional facilities, and supportive community engagement.
           </p>
 
           <LinkCTA

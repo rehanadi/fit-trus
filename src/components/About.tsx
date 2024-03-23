@@ -25,11 +25,11 @@ const About = () => {
             </h1>
 
             <p className='lead'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eveniet illo beatae necessitatibus natus soluta quaerat culpa at laboriosam, quibusdam error omnis ea quasi blanditiis dignissimos laudantium magni. Nemo, expedita?
+              <strong>Fit Trus</strong> is a leading chain of fitness centers dedicated to promoting health, wellness, and active lifestyles. Founded in 2005. We has grown from a single location to a nationwide network of state-of-the-art facilities.
             </p>
 
             <p className='lead'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et eveniet illo beatae necessitatibus natus soluta quaerat culpa at laboriosam, quibusdam error omnis ea quasi blanditiis dignissimos laudantium magni. Nemo, expedita?
+              <strong>Fit Trus</strong> continues to thrive as a leader in the fitness industry, with a growing network of franchise locations nationwide. The company remains committed to its founding principles of promoting health, wellness, and community, empowering individuals to live their best lives through regular physical activity and positive lifestyle choices.
             </p>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Testimonials = ({ className = '' }: Props) => {
             <TestimonialsCard 
               name="Will Higgens"
               image={testimonial1}
-              review="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt autem minima iusto perferendis ullam facere provident molestias esse ex numquam, hic iure similique assumenda quibusdam ipsa. Pariatur, autem facilis!"
+              review="I joined Fit Trus a year ago, and it's been a life-changing experience. Before joining, I struggled to find the motivation and support I needed to prioritize my health and fitness. But from the moment I walked through the doors of FIt Trus, I knew I had found something special"
               className="me-md-2"
             />
           </div>
@@ -30,7 +30,7 @@ const Testimonials = ({ className = '' }: Props) => {
             <TestimonialsCard 
               name="Sarah Smith"
               image={testimonial2}
-              review="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt autem minima iusto perferendis ullam facere provident molestias esse ex numquam, hic iure similique assumenda quibusdam ipsa. Pariatur, autem facilis!"
+              review="Since joining Fit Trus, I've seen incredible progress in my fitness journey. I've lost weight, gained strength, and improved my overall well-being. But more than that, I've gained confidence, self-discipline, and a newfound love for taking care of my body."
               className="ms-md-2 mx-lg-2"
             />
           </div>
@@ -39,7 +39,7 @@ const Testimonials = ({ className = '' }: Props) => {
             <TestimonialsCard 
               name="Julie George"
               image={testimonial3}
-              review="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt autem minima iusto perferendis ullam facere provident molestias esse ex numquam, hic iure similique assumenda quibusdam ipsa. Pariatur, autem facilis!"
+              review="Fit Trus isn't just a gym—it's a supportive community that empowers you to be the best version of yourself. I'm so grateful to have found Fit Trus, and I can't wait to see where my fitness journey takes me next."
               className="me-md-2 ms-lg-2"
             />
           </div>

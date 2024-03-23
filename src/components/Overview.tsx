@@ -19,14 +19,18 @@ const Overview = () => {
         />
 
         <p className='lead'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque libero accusamus natus quas, reiciendis quidem porro facere fuga nostrum, numquam exercitationem recusandae pariatur veritatis explicabo culpa temporibus nihil! Itaque iste quisquam quo distinctio tempora maxime porro alias delectus accusantium repudiandae.
+          <strong>Fit Trus</strong> is leading fitness center who play a vital role in promoting regular physical activity, improving overall health and fitness levels, and providing a supportive environment for individuals to pursue their wellness goals.
+        </p>
+
+        <p className="lead">
+          Whether you're looking to lose weight, build strength, improve flexibility, or simply maintain an active lifestyle, <strong>Fit Trus</strong> can provide the resources, guidance, and motivation needed to succeed.
         </p>
 
         <OverviewCard 
           className="mt-4"
           image={trainerImage}
           title="Solid Teams"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem expedita veniam cupiditate animi at ab tenetur quo iusto? Perferendis!"
+          paragraph="Fit Trus provide personal training services, where individuals can work one-on-one with a certified personal trainer to develop personalized workout plans, receive guidance on proper exercise techniques, and stay motivated."
         />
 
         <OverviewCard 
@@ -34,7 +38,7 @@ const Overview = () => {
           image={workoutImage}
           imageOrder={2}
           title="Leading Culture"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem expedita veniam cupiditate animi at ab tenetur quo iusto? Perferendis!"
+          paragraph="Fit Trus is a leading chain of fitness centers dedicated to promoting health, wellness, and active lifestyles. Fit Trus has grown from a single location to a nationwide network of state-of-the-art facilities."
         />
       </div>
     </section>

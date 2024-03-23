@@ -10,7 +10,7 @@ const Culture = () => {
           image={workoutImage}
           imageOrder={2}
           title="Leading Culture"
-          paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem expedita veniam cupiditate animi at ab tenetur quo iusto? Perferendis!"
+          paragraph="Fit Trus is a leading chain of fitness centers dedicated to promoting health, wellness, and active lifestyles. Fit Trus has grown from a single location to a nationwide network of state-of-the-art facilities."
           isShowLink={false}
         />
       </div>

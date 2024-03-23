@@ -31,6 +31,10 @@ input {
   line-height: revert;
 }
 
+strong {
+  font-weight: 700;
+}
+
 .row,
 .col {
   margin: 0;
