@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { openSans } from "@/utils/fonts";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "@/styles/globals.css";
 import Header from "@/components/Header";
-import Script from "next/script";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Script defer={true} src='/assets/js/bootstrap.bundle.min.js' />
+        <Script src='/assets/js/bootstrap.bundle.min.js' />
       </body>
     </html>
   );
