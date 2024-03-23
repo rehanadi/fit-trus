@@ -24,7 +24,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Script src='/assets/js/bootstrap.bundle.min.js' />
+        <Script defer={true} src='/assets/js/bootstrap.bundle.min.js' />
       </body>
     </html>
   );
