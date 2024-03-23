@@ -1,3 +1,9 @@
+:root {
+  --color-dark: rgb(6, 21, 28);
+  --color-orange: rgb(252, 84, 26);
+  --color-grey: #AAAAAA;
+}
+
 p,
 figure,
 ol,
@@ -52,7 +58,7 @@ strong {
 
 .title span, 
 .sub-title span {
-  color: rgb(252, 84, 26);
+  color: var(--color-orange);
 }
 
 .link-hover {
@@ -74,7 +80,7 @@ strong {
   width: 100%;
   transform: scaleX(0.3);
   transform-origin: left;
-  background-color: rgb(252, 84, 26);
+  background-color: var(--color-orange);
   z-index: -1;
   transition: transform 0.25s ease-in-out;
 }
@@ -94,13 +100,13 @@ strong {
 }
 
 .logo {
-  color: rgb(252, 84, 26);
+  color: var(--color-orange);
   font-size: 25px;
   font-weight: 700;
 }
 
 .header .navbar {
-  background-color: rgb(6, 21, 28);
+  background-color: var(--color-dark);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -115,15 +121,15 @@ strong {
 }
 
 .header .nav-link:hover {
-  color: rgb(252, 84, 26);
+  color: var(--color-orange);
 }
 
 .hero {
-  background-image: url("/assets/images/hero-bg.jpg");
+  background-image: url("/assets/images/hero-bg.webp");
 }
 
 .overview-card {
-  background-image: url("/assets/images/overview-card-bg.jpg");
+  background-image: url("/assets/images/overview-card-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -135,15 +141,15 @@ strong {
   left: 0;
   height: 1px;
   width: 30px;
-  background-color: #AAAAAA;
+  background-color: var(--color-grey);
 }
 
 .services ul li svg {
-  color: rgb(252, 84, 26);
+  color: var(--color-orange);
 }
 
 .services-card.highlight {
-  background-image: url("/assets/images/services-card-bg.jpg");
+  background-image: url("/assets/images/services-card-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -168,7 +174,7 @@ strong {
 
 .testimonials-card .name {
   font-size: 26px;
-  color: rgb(252, 84, 26);
+  color: var(--color-orange);
 }
 
 .testimonials-card .rating {
@@ -195,7 +201,7 @@ strong {
 
 .teams-card .name {
   font-size: 26px;
-  color: rgb(252, 84, 26);
+  color: var(--color-orange);
 }
 
 .teams-card .social a {
@@ -203,7 +209,7 @@ strong {
 }
 
 .footer {
-  background-image: url("/assets/images/footer-bg.jpg");
+  background-image: url("/assets/images/footer-bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -211,7 +217,7 @@ strong {
 .footer h6 {
   font-size: 18px;
   padding: 5px 10px;
-  background-color: rgb(252, 84, 26);
+  background-color: var(--color-orange);
 }
 
 .footer ul li a {

@@ -19,7 +19,7 @@ const cardTitles = [
 
 const fetchTeams = async () => {
   try {
-    const res = await fetch("https://randomuser.me/api/?results=3&nat=us")
+    const res = await fetch("https://randomuser.me/api/?results=3&nat=us&gender=male")
     const data = await res.json()
     return data.results
   } catch (error) {

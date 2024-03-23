@@ -23,7 +23,7 @@ const Overview = () => {
         </p>
 
         <p className="lead">
-          Whether you're looking to lose weight, build strength, improve flexibility, or simply maintain an active lifestyle, <strong>Fit Trus</strong> can provide the resources, guidance, and motivation needed to succeed.
+          Whether you're looking to lose weight, build strength, improve flexibility, or simply maintain an active lifestyle, we can provide the resources, guidance, and motivation needed to succeed.
         </p>
 
         <OverviewCard 
