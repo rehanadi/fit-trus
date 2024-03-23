@@ -218,10 +218,8 @@ strong {
   background-position: center;
 }
 
-.footer h6 {
-  font-size: 18px;
-  padding: 5px 10px;
-  background-color: var(--color-orange);
+.footer h5 {
+  font-size: 22px;
 }
 
 .footer ul li a {

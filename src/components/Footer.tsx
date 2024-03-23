@@ -14,7 +14,7 @@ const Footer = () => {
 
         <div className="row row-gap-5">
           <div className="col col-12 col-md-6 col-lg-4">
-            <h6 className="mb-4 d-inline-flex">Programs</h6>
+            <h5 className="mb-4 d-inline-flex">Programs</h5>
 
             <ul className="d-flex flex-column gap-2">
               <li>
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           
           <div className="col col-12 col-md-6 col-lg-4">
-            <h6 className="mb-4 d-inline-flex">Links</h6>
+            <h5 className="mb-4 d-inline-flex">Links</h5>
 
             <ul className="d-flex flex-column gap-2">
               <li>
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
           
           <div className="col col-12 col-md-6 col-lg-4">
-            <h6 className="mb-4 d-inline-flex">Newsletter</h6>
+            <h5 className="mb-4 d-inline-flex">Newsletter</h5>
 
             <form action="/" className="d-flex flex-column row-gap-4">
               <input className={["form-control", openSans.className].join(" ")} placeholder="Your Email" />
@@ -67,19 +67,19 @@ const Footer = () => {
           <span>All rights reserved.</span>
 
           <div className="social d-flex align-items-center gap-3 flex-shrink-0">
-            <Link href="/">
+            <Link href="/" aria-label="Facebook">
               <FaFacebookF />
             </Link>
 
-            <Link href="/">
+            <Link href="/" aria-label="Instagram">
               <FaInstagram />
             </Link>
 
-            <Link href="/">
+            <Link href="/" aria-label="Twitter">
               <FaTwitter />
             </Link>
 
-            <Link href="/">
+            <Link href="/" aria-label="Youtube">
               <FaYoutube />
             </Link>
           </div>
