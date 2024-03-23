@@ -24,7 +24,7 @@ const TestimonialsCard = ({ name, image, review, className = "" }: Props) => {
         </figure>
 
         <div className="d-flex align-items-center align-items-sm-start flex-column gap-2">
-          <h4 className={["name", sarpanch.className].join(" ")}>{name}</h4>
+          <h5 className={["name", sarpanch.className].join(" ")}>{name}</h5>
           <div className="rating d-flex gap-1 flex-shrink-0">
             <FaStar />
             <FaStar />

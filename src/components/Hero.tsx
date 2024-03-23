@@ -28,6 +28,7 @@ const Hero = () => {
             src={heroImage}
             alt="Hero"
             loading='lazy'
+            sizes="(min-width: 500px) 50vw, 100vw"
           />
         </figure>
       </div>
