@@ -208,6 +208,10 @@ strong {
   font-size: 18px;
 }
 
+.teams-card .social a:hover {
+  color: var(--color-orange);
+}
+
 .footer {
   background-image: url("/assets/images/footer-bg.webp");
   background-size: cover;
@@ -226,7 +230,7 @@ strong {
 }
 
 .footer ul li a:hover {
-  text-decoration: underline;
+  color: var(--color-orange);
 }
 
 .footer form input,
@@ -246,6 +250,10 @@ strong {
 .footer .social a {
   color: white;
   font-size: 18px;
+}
+
+.footer .social a:hover {
+  color: var(--color-orange);
 }
 
 @media screen and (min-width: 992px) {

@@ -1,9 +1,22 @@
 import { sarpanch } from "@/utils/fonts"
 import ServicesCard from "@/components/ServicesCard"
+import services from '@/data/services.json'
 
 type Props = {
   className?: string
 }
+
+const cardClassNames = [
+  "me-md-2 me-lg-0",
+  "ms-md-2 mx-lg-0 text-white highlight",
+  "me-md-2 ms-lg-0"
+]
+
+const linkClassNames = [
+  "",
+  "text-white",
+  ""
+]
 
 const Services = ({ className = '' }: Props) => {
   return (
@@ -14,48 +27,18 @@ const Services = ({ className = '' }: Props) => {
         </h2>
 
         <div className="row mt-4 row-gap-4">
-          <div className="col col-12 col-md-6 col-lg-4">
-            <ServicesCard 
-              className="me-md-2 me-lg-0"
-              title="One Time"
-              price="$40"
-              services={[
-                "Training Consultation", 
-                "Training Guidance", 
-                "Body Composition Analysis", 
-                "Workout Sessions"
-              ]}
-            />
-          </div>
-
-          <div className="col col-12 col-md-6 col-lg-4">
-            <ServicesCard 
-              className="ms-md-2 mx-lg-0 text-white highlight"
-              linkClassName="text-white"
-              title="Two Times"
-              price="$70"
-              services={[
-                "8-12 Training Consultations", 
-                "Training Guidance", 
-                "1 Body Composition Analysis", 
-                "Workout Sessions"
-              ]}
-            />
-          </div>
-
-          <div className="col col-12 col-md-6 col-lg-4">
-            <ServicesCard 
-              className="me-md-2 ms-lg-0"
-              title="Three Times"
-              price="$110"
-              services={[
-                "8 Training Consultations", 
-                "Training Guidance", 
-                "1 Body Composition Analysis", 
-                "Workout Sessions"
-              ]}
-            />
-          </div>
+          {services?.map((service: any, index: number) => (
+            <div className="col col-12 col-md-6 col-lg-4" key={index}>
+              <ServicesCard 
+                className={cardClassNames[index]}
+                linkClassName={linkClassNames[index]}
+                name={service.name}
+                slug={service.slug}
+                price={service.price}
+                services={service.services}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>

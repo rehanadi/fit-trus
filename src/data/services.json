@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "One Time",
+    "slug": "one-time-plan",
+    "price": "$40",
+    "description": "Begin your journey with a thorough fitness assessment conducted by our certified personal trainers. Through a series of tests and evaluations, we'll identify your current fitness level, goals, and any specific needs or limitations.",
+    "services": [
+      "Training Consultation", 
+      "Training Guidance", 
+      "Body Composition Analysis", 
+      "Workout Sessions"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Two Times",
+    "slug": "two-times-plan",
+    "price": "$70",
+    "description": "Based on your assessment results and fitness goals, our experienced trainers will create personalized workout plans tailored to your needs. Whether you're aiming to lose weight, build strength, improve flexibility, or enhance athletic performance, we'll develop a program specifically for you.",
+    "services": [
+      "8-12 Training Consultations", 
+      "Training Guidance", 
+      "1 Body Composition Analysis", 
+      "Workout Sessions"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Three Times",
+    "slug": "three-times-plan",
+    "price": "$110",
+    "description": "Benefit from individualized attention and guidance during one-on-one personal training sessions with our expert trainers. Receive hands-on instruction, motivation, and support as you work towards achieving your fitness objectives.",
+    "services": [
+      "8 Training Consultations", 
+      "Training Guidance", 
+      "1 Body Composition Analysis", 
+      "Workout Sessions"
+    ]
+  }
+]
